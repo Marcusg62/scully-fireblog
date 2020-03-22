@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "scullydemo": {
+      "hosting": {
+        "scully-fireblogs": [
+          "scullydemo"
+        ]
+      }
+    }
+  }
+}

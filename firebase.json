@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "scully-fireblogs",
+      "public": "dist/scully-fireblogs",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
